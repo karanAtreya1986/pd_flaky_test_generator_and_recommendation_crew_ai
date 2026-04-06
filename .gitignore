@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (highly recommended to exclude from version control)
+.env
+
+# Testing artifacts
+.pytest_cache/
+tool_test_results.txt
+agent_test_results.txt
+execution_log.txt
+results.txt
+
+# Result artifacts (optional, but keep them out if you want clean history)
+results_clean.json
+final_report.json
+
+# Reports
+flaky_test_report.md
+tool_test_report.md
+agent_test_report.md
+task_report.md
+conversation.md
+verify_tasks.py
+
+# OS-specific
+.DS_Store
+Thumbs.db
